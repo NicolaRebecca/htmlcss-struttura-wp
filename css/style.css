@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+ }
+
+ .corpo-sito{
+     max-width: 1200px;
+     margin:0 auto;
+ }
+
+ header {
+     margin-top: 10px;
+    height: 100px;
+    background-color: blue;
+}
+
+.big-img{
+    
+    margin-top: 10px;
+    height: 320px;
+    width: 1200px;
+    background-color:yellow
+}
+
+
+.sottotitolo{
+margin-top:10px;
+height: 100px;
+width: 1200px;
+background-color:yellow;
+}
+
+
+.prima-tab{
+    
+    margin-top:10px;
+    height: 250px;
+    width: 360px;
+    background-color: rgb(39, 216, 216);
+    margin-right: 10px;
+    
+}
+
+.seconda-tab{
+    
+    margin-top:10px;
+    height: 250px;
+    width: 460px;
+    background-color: rgb(39, 216, 216);
+    margin-right:10px;
+    
+}
+
+.terza-tab{
+    
+    margin-top:10px;
+    height: 250px;
+    width: 360px;
+    background-color: rgb(39, 216, 216);
+    
+}
+
+footer {
+    background-color: blue;
+    height: 50px;
+    margin-top:10px;
+}
